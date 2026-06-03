@@ -1,36 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
+---
+layout: default
+title: Executive Portfolio
+---
+<section class="hero-block">
+    <h1>Tope Fariu-Arebi</h1>
+    <h2>Programme Co-ordinator & Digital Delivery Consultant</h2>
+    <p class="lead-text">
+        I am a UK-based delivery specialist focusing on digital transformation, cross-functional project governance, and information technology alignment. I direct high-stakes software and infrastructure deployments, ensuring operational continuity and strict compliance with enterprise delivery requirements.
+    </p>
+</section>
 
-    <header class="site-header">
-        <div class="header-container">
-            <a href="{{ '/' | relative_url }}" class="site-logo">Tope Fariu-Arebi</a>
-            <nav class="site-nav">
-                <a href="{{ '/about/' | relative_url }}">About</a>
-                <a href="{{ '/career-log/' | relative_url }}">Career Log</a>
-                <a href="{{ '/contact/' | relative_url }}" class="nav-cta">Contact</a>
-            </nav>
+<section class="credentials-matrix">
+    <div class="credential-badge">
+        <strong>PRINCE2® Practitioner</strong>
+        <span>Certified Project Governance</span>
+    </div>
+    <div class="credential-badge">
+        <strong>M.Sc. Managing Innovation & IT</strong>
+        <span>Graduated with Distinction</span>
+    </div>
+    <div class="credential-badge">
+        <strong>M.Sc. Human Resource Management</strong>
+        <span>Strategic Organisational Alignment</span>
+    </div>
+    <div class="credential-badge">
+        <strong>B.Sc. Economics</strong>
+        <span>Quantitative & Market Analysis</span>
+    </div>
+</section>
+
+<hr class="section-divider">
+
+<section class="workstream-grid">
+    <h3>Notable Projects</h3>
+    
+    <div class="workstream-card">
+        <div class="card-header">
+            <h4>Central Data Hub (CDH) Implementation</h4>
+            <span class="role-tag">Lead Governance & Technical Delivery</span>
         </div>
-    </header>
+        <p>Directed the overarching technical framework and programmatic governance for an enterprise-wide Central Data Hub deployment. Managed cross-functional engineering workstreams and maintained rigorous RAID logs to neutralize deployment dependencies across the institution.</p>
+        <a href="{{ '/career-log/cdh-implementation/' | relative_url }}" class="case-study-link">Read technical breakdown &rarr;</a>
+    </div>
 
-    <main class="site-content">
-        <div class="main-container">
-            {{ content }}
+    <div class="workstream-card">
+        <div class="card-header">
+            <h4>Timetabling Replacement (TTR) System</h4>
+            <span class="role-tag">Workstream Modernisation Lead</span>
         </div>
-    </main>
+        <p>Orchestrated the comprehensive end-to-end decommissioning of legacy infrastructure alongside the rollout of a modernized, high-availability Timetabling Replacement engine. Synchronized delivery parameters across academic and operational departments.</p>
+        <a href="{{ '/career-log/ttr-system/' | relative_url }}" class="case-study-link">Read technical breakdown &rarr;</a>
+    </div>
 
-    <footer class="site-footer">
-        <div class="footer-container">
-            <p>&copy; 2026 Tope Fariu-Arebi. All rights reserved. Professional Portfolio.</p>
+    <div class="workstream-card">
+        <div class="card-header">
+            <h4>Curriculum Management Platform (CMP)</h4>
+            <span class="role-tag">Lifecycle Delivery Coordinator</span>
         </div>
-    </footer>
-
-</body>
-</html>
+        <p>Supervised the operational integration and compliance checks for a centralized Curriculum Management Platform. Balanced complex institutional data models with intuitive user delivery to drive systemic change management.</p>
+        <a href="{{ '/career-log/cmp-integration/' | relative_url }}" class="case-study-link">Read technical breakdown &rarr;</a>
+    </div>
+</section>
