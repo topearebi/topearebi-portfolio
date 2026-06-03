@@ -1,0 +1,223 @@
+/* Custom CSS: Ben Dodson-Inspired Typography and Layout Architecture */
+
+:root {
+    --bg-color: #fcfbf9;       /* Light linen canvas */
+    --text-main: #1a1a1a;      /* Heavy charcoal/black */
+    --text-muted: #595959;     /* Deep slate grey */
+    --accent-color: #1a365d;   /* Deep corporate executive accent */
+    --border-color: #e3e0da;   /* Linen card divider border */
+    --card-bg: #ffffff;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    padding: 0 1.5rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.header-container, .main-container, .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Site Header */
+.site-header {
+    padding: 2.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.site-logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-main);
+    letter-spacing: -0.02em;
+}
+
+.site-nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.site-nav a:hover {
+    color: var(--text-main);
+}
+
+.site-nav a.nav-cta {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+/* Main Content Layout */
+.site-content {
+    padding: 3.5rem 0;
+}
+
+.section-divider {
+    border: 0;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 3.5rem 0;
+}
+
+/* Hero Section */
+.hero-block h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+.hero-block h2 {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.lead-text {
+    font-size: 1.15rem;
+    color: #2d2d2d;
+    max-width: 720px;
+}
+
+/* Credentials Matrix */
+.credentials-matrix {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.credential-badge {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.credential-badge strong {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--text-main);
+    margin-bottom: 0.25rem;
+}
+
+.credential-badge span {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Workstream Portfolio Grid */
+.workstream-grid h3, .content-engine h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.75rem;
+    letter-spacing: -0.01em;
+}
+
+.workstream-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 1.25rem;
+}
+
+.workstream-card h4 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.role-tag {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.workstream-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+/* Content Engine Feed */
+.article-feed {
+    list-style: none;
+}
+
+.article-feed li {
+    margin-bottom: 1.5rem;
+}
+
+.post-date {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.post-link {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-main);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.post-link:hover {
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
+}
+
+.post-excerpt {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+}
+
+/* Site Footer */
+.site-footer {
+    padding: 2.5rem 0;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+@media (max-width: 600px) {
+    .hero-block h1 { font-size: 2rem; }
+    .site-header { padding: 1.5rem 0; }
+    .header-container { flex-direction: column; align-items: flex-start; }
+}
