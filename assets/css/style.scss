@@ -156,6 +156,32 @@ h1, h2, h3, h4 {
 }
 
 /* Notable Projects Grid */
+/* Post Categories & Tags */
+.card-tags {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.post-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: $text-muted;
+    background-color: #f0eee9; /* Subtle contrast against the white card */
+    padding: 0.25rem 0.65rem;
+    border-radius: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+        background-color: $accent-color;
+        color: #ffffff;
+    }
+}
 .workstream-grid h3 {
     font-size: 1.5rem;
     font-weight: 700;
