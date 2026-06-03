@@ -6,7 +6,7 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}">
-                {{ page.date | date: "%B %d, %Y" }}
+                {{ page.date | date: "%d %b %Y" }}
             </time>
         </p>
     </header>
@@ -16,6 +16,30 @@ layout: default
     </div>
 
     <div class="post-navigation">
-        <a href="{{ '/career-log/' | relative_url }}" class="back-link">&larr; Back to Career Log</a>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 2.5rem; gap: 1rem;">
+            <div style="width: 48%; text-align: left;">
+                {% if page.previous.url %}
+                <span style="display: block; font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; margin-bottom: 0.35rem;">&larr; Previous Postmortem</span>
+                <a href="{{ page.previous.url | relative_url }}" class="case-study-link" style="border: none; line-height: 1.4; font-size: 1.05rem;">
+                    {{ page.previous.title }}
+                </a>
+                {% endif %}
+            </div>
+            
+            <div style="width: 48%; text-align: right;">
+                {% if page.next.url %}
+                <span style="display: block; font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; margin-bottom: 0.35rem;">Next Postmortem &rarr;</span>
+                <a href="{{ page.next.url | relative_url }}" class="case-study-link" style="border: none; line-height: 1.4; font-size: 1.05rem;">
+                    {{ page.next.title }}
+                </a>
+                {% endif %}
+            </div>
+        </div>
+
+        <div style="text-align: center; border-top: 1px solid var(--border-color); padding-top: 2rem;">
+            <a href="{{ '/career-log/' | relative_url }}" class="post-tag" style="padding: 0.6rem 1.25rem; font-size: 0.85rem;">
+                &uarr; Back to Career Log Index
+            </a>
+        </div>
     </div>
 </article>
