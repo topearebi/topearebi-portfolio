@@ -7,6 +7,7 @@ permalink: /career-log/cdh-implementation/
 ---
 
 Implementing a Central Data Hub across an enterprise environment is rarely just a technical challenge; it is fundamentally an exercise in risk containment and cross-functional governance. Here is a breakdown of how we utilized RAID frameworks to map dependencies and protect the deployment timeline.
+''
 
 When dealing with institutional data, the margin for architectural error is practically non-existent. As the Lead for Governance & Technical Delivery on the CDH workstream, my primary objective was to ensure that the engineering teams had a clear, unblocked pathway to execution, while simultaneously providing the executive steering boards with absolute transparency regarding deployment health.
 
