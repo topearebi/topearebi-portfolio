@@ -22,7 +22,18 @@ title: Career Log
                 <span class="role-tag">{{ post.date | date: "%d %b %Y" }}</span>
             </div>
             <p>{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
-            <a href="{{ post.url | relative_url }}" class="case-study-link">Read postmortem &rarr;</a>
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem;">
+                <a href="{{ post.url | relative_url }}" class="case-study-link">Read postmortem &rarr;</a>
+                
+                {% if post.categories.size > 0 %}
+                <div class="card-tags" style="margin-top: 0;">
+                    {% for category in post.categories %}
+                    <a href="{{ '/topics/#' | append: category | relative_url }}" class="post-tag">{{ category }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
         </div>
         {% endfor %}
     </section>
