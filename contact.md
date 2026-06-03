@@ -1,18 +1,9 @@
 ---
-layout: default
+layout: page
 title: Contact
+description: I am always open to engaging in high-signal conversations regarding digital infrastructure, institutional governance, and strategic mentorship.
 permalink: /contact/
 ---
-
-<div class="page-container" markdown="1">
-    <header class="card-header" style="margin-bottom: 2.5rem;">
-        <h1 class="page-title">Contact</h1>
-        <p class="lead-text">
-            I am always open to engaging in high-signal conversations regarding digital infrastructure, institutional governance, and strategic mentorship.
-        </p>
-    </header>
-
-<div class="page-content" markdown="1">
 
 To ensure efficiency, please review my current intake parameters below before reaching out. 
 
@@ -30,6 +21,3 @@ The most direct way to get in touch is via email:
 * **Networking & Homelab:** Always happy to connect over self-hosted infrastructure configurations, Docker stack troubleshooting, or language learning frameworks. 
 
 If you prefer to connect on professional networks, you can also find me on **[LinkedIn](#)** *(Note: insert your actual LinkedIn URL here)*.
-
-</div>
-</div>
