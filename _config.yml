@@ -15,3 +15,7 @@ exclude:
   - Gemfile.lock
   - vendor/
   - node_modules/
+
+# Pagination Settings
+paginate: 10
+paginate_path: "/career-log/page:num/"
