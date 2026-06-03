@@ -1,5 +1,17 @@
 title: Tope Fariu-Arebi
-description: Product & Project Manager
+description: Programme Co-ordinator & Digital Delivery Consultant specializing in enterprise digital transformation and project governance.
 url: "https://topearebi.com"
-permalink: /:year/:month/:title/
+baseurl: ""
+
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
