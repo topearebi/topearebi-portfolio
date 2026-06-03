@@ -1,15 +1,8 @@
 ---
-layout: default
-title: About
+layout: page
+title: About Me
 permalink: /about/
 ---
-
-<div class="page-container" markdown="1">
-    <header class="card-header" style="margin-bottom: 2.5rem;">
-        <h1 class="page-title">About Me</h1>
-    </header>
-
-<div class="page-content" markdown="1">
 
 At my core, I am a systems thinker. My professional career is defined by orchestrating complex digital transformations and managing enterprise governance, but that same drive for optimization, structure, and continuous improvement bleeds into every aspect of my life.
 
@@ -26,7 +19,4 @@ When I am not directing technical workstreams or navigating institutional data m
 
 ### Mentorship
 
-I firmly believe in lowering the barrier to entry for the next generation of strategists. I actively provide professional mentorship and tutoring in Project Management, Business Analysis, and Economics for university students and early-career professionals navigating their first major transitions. 
-
-</div>
-</div>
+I firmly believe in lowering the barrier to entry for the next generation of strategists. I actively provide professional mentorship and tutoring in Project Management, Business Analysis, and Economics for university students and early-career professionals navigating their first major transitions.
