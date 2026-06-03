@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-<div class="page-container">
+<div class="page-container" markdown="1">
     <header class="card-header" style="margin-bottom: 2.5rem;">
         <h1 class="page-title">About Me</h1>
     </header>
 
-<div class="page-content">
+<div class="page-content" markdown="1">
 
 At my core, I am a systems thinker. My professional career is defined by orchestrating complex digital transformations and managing enterprise governance, but that same drive for optimization, structure, and continuous improvement bleeds into every aspect of my life.
 
