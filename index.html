@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Tope Fariu-Arebi | Programme Co-ordinator & Digital Delivery Consultant
+title: Home
 ---
-
-<section class="hero-block">
+<section id="about" class="hero-block">
     <h1>Tope Fariu-Arebi</h1>
     <h2>Programme Co-ordinator & Digital Delivery Consultant</h2>
     <p class="lead-text">
@@ -12,11 +11,25 @@ title: Tope Fariu-Arebi | Programme Co-ordinator & Digital Delivery Consultant
 </section>
 
 <section class="credentials-matrix">
-    <div class="credential-badge"><strong>PRINCE2® Practitioner</strong><br>Certified Project Governance</div>
-    <div class="credential-badge"><strong>M.Sc. Managing Innovation & IT</strong><br>Graduated with Distinction</div>
-    <div class="credential-badge"><strong>M.Sc. Human Resource Management</strong><br>Strategic Organisational Alignment</div>
-    <div class="credential-badge"><strong>B.Sc. Economics</strong><br>Quantitative & Market Analysis</div>
+    <div class="credential-badge">
+        <strong>PRINCE2® Practitioner</strong>
+        <span>Certified Project Governance</span>
+    </div>
+    <div class="credential-badge">
+        <strong>M.Sc. Managing Innovation & IT</strong>
+        <span>Graduated with Distinction</span>
+    </div>
+    <div class="credential-badge">
+        <strong>M.Sc. Human Resource Management</strong>
+        <span>Strategic Organisational Alignment</span>
+    </div>
+    <div class="credential-badge">
+        <strong>B.Sc. Economics</strong>
+        <span>Quantitative & Market Analysis</span>
+    </div>
 </section>
+
+<hr class="section-divider">
 
 <section id="portfolio" class="workstream-grid">
     <h3>Notable Technical Workstreams</h3>
@@ -40,13 +53,15 @@ title: Tope Fariu-Arebi | Programme Co-ordinator & Digital Delivery Consultant
     </div>
 </section>
 
-<section class="content-engine">
+<hr class="section-divider">
+
+<section id="thinking" class="content-engine">
     <h3>Latest Thinking & Career Logs</h3>
     <ul class="article-feed">
         {% for post in site.posts limit:5 %}
         <li>
-            <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span> — 
-            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span> &mdash; 
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
         </li>
         {% endfor %}
