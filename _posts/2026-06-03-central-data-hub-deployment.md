@@ -2,7 +2,7 @@
 layout: post
 title: "Enterprise Risk & Governance Mechanics: Leveraging RAID Frameworks in Higher Education"
 date: 2026-06-03 12:00:00 -0000
-categories: governance risk
+categories: [governance, risk]
 ---
 
 Managing high-stakes digital transformations within institutional environments requires robust governance mechanics. When handling enterprise-wide data overhauls or system migrations, standard agile updates fail to protect delivery metrics if isolated from structured risk containment models.
