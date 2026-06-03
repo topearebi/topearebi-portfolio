@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: Executive Portfolio
 ---
-<section id="about" class="hero-block">
+<section class="hero-block">
     <h1>Tope Fariu-Arebi</h1>
     <h2>Programme Co-ordinator & Digital Delivery Consultant</h2>
     <p class="lead-text">
@@ -31,39 +31,33 @@ title: Home
 
 <hr class="section-divider">
 
-<section id="portfolio" class="workstream-grid">
-    <h3>Notable Technical Workstreams</h3>
+<section class="workstream-grid">
+    <h3>Notable Projects</h3>
     
     <div class="workstream-card">
-        <h4>Central Data Hub (CDH) Implementation</h4>
-        <p class="role-tag">Role: Lead Governance & Technical Delivery</p>
-        <p>Directed the overarching technical framework and programmatic governance for an enterprise-wide Central Data Hub deployment. Managed cross-functional engineering workstreams, maintained rigorous RAID logs to neutralize deployment dependencies, and delivered executive status reporting to university steering boards.</p>
+        <div class="card-header">
+            <h4>Central Data Hub (CDH) Implementation</h4>
+            <span class="role-tag">Lead Governance & Technical Delivery</span>
+        </div>
+        <p>Directed the overarching technical framework and programmatic governance for an enterprise-wide Central Data Hub deployment. Managed cross-functional engineering workstreams and maintained rigorous RAID logs to neutralize deployment dependencies across the institution.</p>
+        <a href="{{ '/career-log/cdh-implementation' | relative_url }}" class="case-study-link">Read technical breakdown &rarr;</a>
     </div>
 
     <div class="workstream-card">
-        <h4>Timetabling Replacement (TTR) System</h4>
-        <p class="role-tag">Role: Workstream Modernisation Lead</p>
-        <p>Orchestrated the comprehensive end-to-end decommissioning of legacy infrastructure and the simultaneous rollout of a modernized, high-availability Timetabling Replacement engine. Synchronized delivery parameters across academic and operational departments to ensure zero service interruption.</p>
+        <div class="card-header">
+            <h4>Timetabling Replacement (TTR) System</h4>
+            <span class="role-tag">Workstream Modernisation Lead</span>
+        </div>
+        <p>Orchestrated the comprehensive end-to-end decommissioning of legacy infrastructure alongside the rollout of a modernized, high-availability Timetabling Replacement engine. Synchronized delivery parameters across academic and operational departments.</p>
+        <a href="{{ '/career-log/ttr-system' | relative_url }}" class="case-study-link">Read technical breakdown &rarr;</a>
     </div>
 
     <div class="workstream-card">
-        <h4>Curriculum Management Platform (CMP)</h4>
-        <p class="role-tag">Role: Lifecycle Delivery Coordinator</p>
-        <p>Supervised the operational integration and compliance checks for a centralized Curriculum Management Platform. Focused heavily on balancing complex institutional data models with intuitive user delivery, driving systemic change management across distinct business units.</p>
+        <div class="card-header">
+            <h4>Curriculum Management Platform (CMP)</h4>
+            <span class="role-tag">Lifecycle Delivery Coordinator</span>
+        </div>
+        <p>Supervised the operational integration and compliance checks for a centralized Curriculum Management Platform. Balanced complex institutional data models with intuitive user delivery to drive systemic change management.</p>
+        <a href="{{ '/career-log/cmp-integration' | relative_url }}" class="case-study-link">Read technical breakdown &rarr;</a>
     </div>
-</section>
-
-<hr class="section-divider">
-
-<section id="thinking" class="content-engine">
-    <h3>Latest Thinking & Career Logs</h3>
-    <ul class="article-feed">
-        {% for post in site.posts limit:5 %}
-        <li>
-            <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span> &mdash; 
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-        </li>
-        {% endfor %}
-    </ul>
 </section>
