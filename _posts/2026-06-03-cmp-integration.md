@@ -2,6 +2,7 @@
 layout: post
 title: "Systems and Psychology: Change Management in the Curriculum Management Platform"
 date: 2026-06-03 09:00:00 -0000
+permalink: /career-log/cmp-integration/
 ---
 
 The most perfectly engineered software will fail if the organization rejects its adoption. The rollout of a centralized Curriculum Management Platform (CMP) was a stark reminder that digital delivery is as much about human psychology as it is about data models. 
