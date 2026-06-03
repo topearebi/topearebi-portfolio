@@ -2,11 +2,13 @@
 layout: post
 title: "Zero Interruption: Decommissioning Legacy Infrastructure for the TTR System"
 date: 2026-06-02 09:00:00 -0000
+categories: [modernisation, infrastructure]
 permalink: /career-log/ttr-system/
-categories: [change-management, compliance]
 ---
 
-Replacing a mission-critical legacy system is akin to changing the engine of an aircraft while it is still in flight. The Timetabling Replacement (TTR) System required a comprehensive end-to-end decommissioning of outdated infrastructure and the simultaneous rollout of a high-availability, modernized engine—all without disrupting daily institutional operations.
+Replacing a mission-critical legacy system is akin to changing the engine of an aircraft while it is still in flight. This post outlines the phased decommissioning and departmental synchronization strategies used to roll out a high-availability Timetabling Replacement engine with zero service interruption.
+
+The Timetabling Replacement (TTR) System required a comprehensive end-to-end decommissioning of outdated infrastructure and the simultaneous rollout of a modernized engine—all without disrupting daily institutional operations.
 
 As the Workstream Modernisation Lead, the mandate was clear: zero service interruption.
 
