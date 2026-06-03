@@ -21,4 +21,4 @@ paginate: 10
 paginate_path: "/career-log/page:num/"
 
 # Editorial Control
-excerpt_separator: ""
+excerpt_separator: ''
