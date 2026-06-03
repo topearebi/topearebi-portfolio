@@ -11,13 +11,18 @@ permalink: /career-log/
         </p>
     </header>
 
-    <ul class="article-feed">
+    <div class="career-log-grid">
         {% for post in site.posts %}
-        <li>
-            <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span> &mdash; 
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
-        </li>
+        <article class="log-card">
+            <div class="log-card-header">
+                <span class="log-date">{{ post.date | date: "%d %b %Y" }}</span>
+            </div>
+            <h2 class="log-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            <p class="log-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+            <a href="{{ post.url | relative_url }}" class="log-read-more">Read postmortem &rarr;</a>
+        </article>
         {% endfor %}
-    </ul>
+    </div>
 </div>
