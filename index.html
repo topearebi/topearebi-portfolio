@@ -1,1 +1,54 @@
+---
+layout: default
+title: Tope Fariu-Arebi | Programme Co-ordinator & Digital Delivery Consultant
+---
 
+<section class="hero-block">
+    <h1>Tope Fariu-Arebi</h1>
+    <h2>Programme Co-ordinator & Digital Delivery Consultant</h2>
+    <p class="lead-text">
+        I am a UK-based delivery specialist focusing on digital transformation, cross-functional project governance, and information technology alignment. I direct high-stakes software and infrastructure deployments, ensuring operational continuity and strict compliance with enterprise delivery requirements.
+    </p>
+</section>
+
+<section class="credentials-matrix">
+    <div class="credential-badge"><strong>PRINCE2® Practitioner</strong><br>Certified Project Governance</div>
+    <div class="credential-badge"><strong>M.Sc. Managing Innovation & IT</strong><br>Graduated with Distinction</div>
+    <div class="credential-badge"><strong>M.Sc. Human Resource Management</strong><br>Strategic Organisational Alignment</div>
+    <div class="credential-badge"><strong>B.Sc. Economics</strong><br>Quantitative & Market Analysis</div>
+</section>
+
+<section id="portfolio" class="workstream-grid">
+    <h3>Notable Technical Workstreams</h3>
+    
+    <div class="workstream-card">
+        <h4>Central Data Hub (CDH) Implementation</h4>
+        <p class="role-tag">Role: Lead Governance & Technical Delivery</p>
+        <p>Directed the overarching technical framework and programmatic governance for an enterprise-wide Central Data Hub deployment. Managed cross-functional engineering workstreams, maintained rigorous RAID logs to neutralize deployment dependencies, and delivered executive status reporting to university steering boards.</p>
+    </div>
+
+    <div class="workstream-card">
+        <h4>Timetabling Replacement (TTR) System</h4>
+        <p class="role-tag">Role: Workstream Modernisation Lead</p>
+        <p>Orchestrated the comprehensive end-to-end decommissioning of legacy infrastructure and the simultaneous rollout of a modernized, high-availability Timetabling Replacement engine. Synchronized delivery parameters across academic and operational departments to ensure zero service interruption.</p>
+    </div>
+
+    <div class="workstream-card">
+        <h4>Curriculum Management Platform (CMP)</h4>
+        <p class="role-tag">Role: Lifecycle Delivery Coordinator</p>
+        <p>Supervised the operational integration and compliance checks for a centralized Curriculum Management Platform. Focused heavily on balancing complex institutional data models with intuitive user delivery, driving systemic change management across distinct business units.</p>
+    </div>
+</section>
+
+<section class="content-engine">
+    <h3>Latest Thinking & Career Logs</h3>
+    <ul class="article-feed">
+        {% for post in site.posts limit:5 %}
+        <li>
+            <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span> — 
+            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
