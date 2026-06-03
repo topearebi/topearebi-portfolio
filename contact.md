@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<div class="page-container">
+<div class="page-container" markdown="1">
     <header class="card-header" style="margin-bottom: 2.5rem;">
         <h1 class="page-title">Contact</h1>
         <p class="lead-text">
@@ -12,7 +12,7 @@ permalink: /contact/
         </p>
     </header>
 
-<div class="page-content">
+<div class="page-content" markdown="1">
 
 To ensure efficiency, please review my current intake parameters below before reaching out. 
 
