@@ -3,6 +3,7 @@ layout: post
 title: "De-risking Enterprise Data: The Central Data Hub (CDH) Implementation"
 date: 2026-06-01 09:00:00 -0000
 permalink: /career-log/cdh-implementation/
+categories: [modernisation, infrastructure]
 ---
 
 Implementing a Central Data Hub across an enterprise environment is rarely just a technical challenge; it is fundamentally an exercise in risk containment and cross-functional governance. When dealing with institutional data, the margin for architectural error is practically non-existent.
