@@ -72,7 +72,16 @@ body {
 
 .site-nav a.nav-cta {
     color: var(--accent-color);
+    color: #ffffff;
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
     font-weight: 600;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.site-nav a.nav-cta:hover, .site-nav a.nav-cta.active {
+    background-color: #122643; /* Darker executive blue */
+    color: #ffffff; /* Overrides the default text hover */
 }
 
 /* Main Content & Typography */
