@@ -1,1 +1,23 @@
+---
+layout: default
+title: Career Log
+permalink: /career-log/
+---
+<div class="page-container">
+    <header class="card-header" style="margin-bottom: 3rem;">
+        <h1 class="page-title">Career Log</h1>
+        <p class="lead-text">
+            Technical postmortems, risk mitigation frameworks, and structural observations on enterprise digital delivery and legacy system modernization.
+        </p>
+    </header>
 
+    <ul class="article-feed">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span> &mdash; 
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
