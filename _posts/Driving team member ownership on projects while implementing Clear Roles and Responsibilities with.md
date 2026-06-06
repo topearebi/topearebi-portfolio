@@ -1,16 +1,12 @@
 ---
-created: 2026-06-06T23:14:09+01:00
-modified: 2026-06-06T23:27:50+01:00
----
-
-# 2026-06--06-Roles-Responsibilities-and-ownership.md
-
----
 layout: post
 title: "Driving team member ownership on projects while implementing Clear Roles and Responsibilities with"
 date: 2026-06-06 09:00:00 -0000
 categories: [governance, risk]
 permalink: /career-log/roles-responsibilities-ownership/
 ---
+
+
+# 2026-06--06-Roles-Responsibilities-and-ownership.md
 
 One problem that can arise on project teams especially when trying to manage roles and responsibilities is creating a strong environment where everyone knows exactly what their role is and the deliverables are, but still ensuring that everyone expresses ownership in terms of the overall successful delivery of the project
