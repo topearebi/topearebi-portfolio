@@ -21,6 +21,6 @@ The most direct way to get in touch is via email:
 * **Product Management:** Always happy to connect over self-hosted infrastructure configurations, Docker stack troubleshooting, or language learning frameworks. 
 * **Career Advisory:** Always happy to connect over self-hosted infrastructure configurations, Docker stack troubleshooting, or language learning frameworks. 
 * **Small Business & Solopreneur Consulting:** Always happy to connect over self-hosted infrastructure configurations, Docker stack troubleshooting, or language learning frameworks.
-* **Keynote Speaking:** Always happy to connect over self-hosted infrastructure configurations, Docker stack troubleshooting, or language learning frameworks. 
+* **Keynote Speaking:** Always happy to connect or speaking on project management, personal development and self directed learning. 
 
-If you prefer to connect on professional networks, you can also find me on **[LinkedIn](https://www.linkedin.com/in/topearebi)** *(Note: insert your actual LinkedIn URL here)*.
+If you prefer to connect on professional networks, you can also find me on **[LinkedIn](https://www.linkedin.com/in/topearebi)**
