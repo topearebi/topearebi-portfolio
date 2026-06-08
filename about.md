@@ -21,3 +21,7 @@ When I am not directing technical workstreams or navigating institutional data m
 ### Mentorship
 
 I firmly believe in lowering the barrier to entry for the next generation of strategists. I actively provide professional mentorship and tutoring in Project Management, Business Analysis, and Economics for university students and early-career professionals navigating their first major transitions.
+
+### Thoughtfood
+I write a stream of thought newsletter here covering various topics of the human experience
+<iframe src="https://thoughtfood.substack.com/embed" width="480" height="320" style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
