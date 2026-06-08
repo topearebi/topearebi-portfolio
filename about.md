@@ -23,4 +23,4 @@ When I am not directing technical workstreams or navigating institutional data m
 I firmly believe in lowering the barrier to entry for the next generation of strategists. I actively provide professional mentorship and tutoring in Project Management, Business Analysis, and Economics for university students and early-career professionals navigating their first major transitions.
 
 ### Thoughtfood
-I write a series of reflective essays on philosophy, personal development and the nature of human existence over at [Thoughtfood]("https://thoughtfood.substack.com")
+I write a series of reflective essays on philosophy, personal development and the nature of human existence over at [Thoughtfood](https://thoughtfood.substack.com)
