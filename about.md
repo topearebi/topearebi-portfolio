@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About Me
+title: About
+description: "Temitope Fariu-Arebi is a UK-based delivery and programme manager and systems thinker, leading enterprise digital transformations across higher education, construction tech, and high-growth startups."
 permalink: /about/
 ---
 
-At my core, I am a problem chaser. I have always pursued hard problems rather than streamlined career paths. My natural disposition as a systems thinker makes it easy for me to apply first principles concepts and problem solving to a wide array of fields. My professional career is defined by orchestrating complex digital transformations and managing enterprise governance, but that same drive for optimization, structure, and continuous improvement bleeds into every aspect of my life.
-I am primarily driven by the goal of making people's lives easier through efficiency and I bring this mindset to everything I do from writing reports, to designing user-centric software requirements.
+At my core, I am a problem chaser. I have always pursued hard problems rather than streamlined career paths. My natural disposition as a systems thinker makes it easy for me to apply first-principles thinking and structured problem solving across a wide array of fields. My professional career is defined by leading complex digital transformations and owning enterprise delivery and governance — but that same drive for optimisation, structure, and continuous improvement bleeds into every aspect of my life.
+
+I lead delivery the way I think: end to end. I am accountable for outcomes, I advise the people who make the decisions, and I am primarily driven by the goal of making people's lives easier through efficiency — whether I am de-risking a multi-million-pound programme, writing a board report, or designing user-centric software requirements.
 
 I believe in minimizing decision fatigue to maximize execution. Whether it is applying a uniform wardrobe strategy for daily commutes or engineering my own personal digital infrastructure, I am constantly looking for ways to build resilient, high-leverage systems.
 

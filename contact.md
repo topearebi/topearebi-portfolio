@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-description: I am always open to engaging in high-signal conversations regarding digital infrastructure, institutional governance, and strategic mentorship.
+description: "Get in touch with Temitope Fariu-Arebi for delivery and programme leadership roles, digital transformation consulting, mentorship, or keynote speaking."
 permalink: /contact/
 ---
 

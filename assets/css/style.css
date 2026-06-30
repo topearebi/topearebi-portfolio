@@ -173,6 +173,58 @@ h1, h2, h3, h4 {
   max-width: 720px;
 }
 
+/* Hero CTA + availability */
+.hero-cta {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+}
+.cta-primary {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--accent);
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.cta-primary:hover { background-color: var(--accent-soft); }
+.hero-availability {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+/* Card P/S/I emphasis */
+.workstream-card p strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* Closing CTA section */
+.home-closing {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--hairline);
+  text-align: center;
+}
+.home-closing h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.home-closing p {
+  font-family: var(--sans);
+  color: var(--ink-muted);
+  max-width: 520px;
+  margin: 0 auto 1.5rem;
+}
+
 /* Credentials Matrix */
 .credentials-matrix {
   display: grid;
