@@ -1,9 +1,9 @@
 ---
 layout: post
+type: case-study
 title: "Zero Interruption: Decommissioning Legacy Infrastructure for the TTR System"
 date: 2026-06-02 09:00:00 -0000
 categories: [modernisation, infrastructure]
-permalink: /career-log/ttr-system/
 ---
 
 Replacing a mission-critical legacy system is akin to changing the engine of an aircraft while it is still in flight. This post outlines the phased decommissioning and departmental synchronization strategies used to roll out a high-availability Timetabling Replacement engine with zero service interruption.

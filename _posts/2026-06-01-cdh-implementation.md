@@ -1,9 +1,9 @@
 ---
 layout: post
+type: case-study
 title: "De-risking Enterprise Data: The Central Data Hub (CDH) Implementation"
 date: 2026-06-01 09:00:00 -0000
 categories: [governance, risk]
-permalink: /career-log/cdh-implementation/
 ---
 
 Implementing a Central Data Hub across an enterprise environment is rarely just a technical challenge; it is fundamentally an exercise in risk containment and cross-functional governance. Here is a breakdown of how we utilized RAID frameworks to map dependencies and protect the deployment timeline.

@@ -1,42 +1,33 @@
 ---
 layout: page
-title: Competency Topics
-description: An indexed archive of all technical postmortems, structured by competency and focus area.
+title: Topics
+description: An indexed archive of all writing, structured by topic and focus area.
 permalink: /topics/
 ---
 
 <div class="topics-container">
-    
-    <div class="card-tags" style="margin-bottom: 3rem;">
+
+    <div class="topics-nav">
         {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        <a href="#{{ category_name }}" class="post-tag" style="font-size: 0.85rem; padding: 0.4rem 0.8rem;">
-            {{ category_name }} ({{ category | last | size }})
-        </a>
+        <a href="#{{ category_name }}" class="post-tag">{{ category_name }} ({{ category | last | size }})</a>
         {% endfor %}
     </div>
 
     {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    
-    <div class="category-group" style="margin-bottom: 3.5rem;">
-        <h3 id="{{ category_name }}" style="color: var(--accent-color); text-transform: uppercase; font-size: 1.15rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
-            {{ category_name }}
-        </h3>
-        
-        <ul style="list-style: none; padding: 0;">
+    <section class="category-group">
+        <h3 id="{{ category_name }}" class="category-heading">{{ category_name }}</h3>
+
+        <ul class="category-list">
             {% for post in site.categories[category_name] %}
-            <li style="margin-bottom: 1.25rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline;">
-                <span style="font-family: monospace; font-size: 0.9rem; color: var(--text-muted); min-width: 110px;">
-                    {{ post.date | date: "%d %b %Y" }}
-                </span>
-                <a href="{{ post.url | relative_url }}" class="post-link" style="font-weight: 600; color: var(--text-main); text-decoration: none;">
-                    {{ post.title }}
-                </a>
+            <li class="category-item">
+                <span class="category-date">{{ post.date | date: "%d %b %Y" }}</span>
+                <a href="{{ post.url | relative_url }}" class="category-link">{{ post.title }}</a>
             </li>
             {% endfor %}
         </ul>
-    </div>
-    
+    </section>
     {% endfor %}
+
 </div>

@@ -1,9 +1,10 @@
 ---
 layout: post
+type: case-study
 title: "Modernising HR Infrastructure: The Employee Records Digitisation Project"
 date: 2020-09-30 09:00:00 -0000
 categories: [data-modelling, operations]
-permalink: /career-log/eko-hotels-digitisation/
+permalink: /writing/eko-hotels-digitisation/
 ---
 
  * **Project Type:** Operational Transformation & Digital Migration

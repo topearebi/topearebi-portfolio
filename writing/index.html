@@ -1,0 +1,60 @@
+---
+layout: default
+title: Field Notes
+---
+<div class="page-container">
+    <header class="writing-intro">
+        <h1 class="page-title">Field Notes</h1>
+        <p class="lead-text">
+            Case studies from enterprise digital delivery, essays on ways of working, and notes on technology and systems.
+        </p>
+    </header>
+
+    <section class="writing-list">
+        {% for post in paginator.posts %}
+        {% assign t = site.post_types[post.type] %}
+        <article class="entry">
+            <div class="entry-head">
+                <span class="entry-type entry-type--{{ post.type }}">{{ t.label | default: post.type }}</span>
+                <span class="entry-date">{{ post.date | date: "%d %b %Y" }}</span>
+            </div>
+
+            <h2 class="entry-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+
+            <p class="entry-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 40 }}</p>
+
+            <div class="entry-foot">
+                <a href="{{ post.url | relative_url }}" class="case-study-link">{{ t.cta | default: "Read more" }} &rarr;</a>
+
+                {% if post.categories.size > 0 %}
+                <div class="card-tags">
+                    {% for category in post.categories %}
+                    <a href="{{ '/topics/#' | append: category | relative_url }}" class="post-tag">{{ category }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </article>
+        {% endfor %}
+    </section>
+
+    {% if paginator.total_pages > 1 %}
+    <nav class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="case-study-link">&larr; Newer</a>
+        {% else %}
+        <span class="pagination-disabled">&larr; Newer</span>
+        {% endif %}
+
+        <span class="pagination-count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="case-study-link">Older &rarr;</a>
+        {% else %}
+        <span class="pagination-disabled">Older &rarr;</span>
+        {% endif %}
+    </nav>
+    {% endif %}
+</div>

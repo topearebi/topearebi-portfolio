@@ -1,7 +1,8 @@
 ---
 layout: post
+type: essay
 title: "Enterprise Risk & Governance Mechanics: Leveraging RAID Frameworks in Higher Education"
-date: 2026-06-03 12:00:00 -0000
+date: 2026-06-03 14:00:00 -0000
 categories: [governance, risk]
 ---
 

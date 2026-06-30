@@ -18,7 +18,29 @@ exclude:
 
 # Pagination Settings
 paginate: 10
-paginate_path: "/career-log/page:num/"
+paginate_path: "/writing/page:num/"
 
 # Editorial Control
 excerpt_separator: ''
+
+# Post types — single source of truth for labels and CTA wording.
+# `type` in a post's front matter keys into this map.
+post_types:
+  case-study:
+    label: "Case Study"
+    cta: "Read case study"
+  essay:
+    label: "Essay"
+    cta: "Read essay"
+  note:
+    label: "Note"
+    cta: "Read note"
+
+# Defaults: every post is an essay unless it declares otherwise.
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      type: "essay"
+      permalink: /writing/:slug/
