@@ -6,6 +6,10 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
 kramdown:
   syntax_highlighter_opts:
     disable: false
