@@ -194,6 +194,26 @@ h1, h2, h3, h4 {
   transition: background-color 0.2s ease;
 }
 .cta-primary:hover { background-color: var(--accent-soft); }
+
+/* Secondary CTA — outlined, subordinate to the primary action */
+.cta-secondary {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  background-color: transparent;
+  border: 1px solid var(--accent);
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.cta-secondary:hover {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
 .hero-availability {
   font-family: var(--sans);
   font-size: 0.9rem;
