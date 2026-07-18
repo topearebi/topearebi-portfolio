@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about.md",
+                "file": "_posts/2026-06-01-cdh-implementation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "2026-06-01-cdh-implementation"
             }
           }
         ]
@@ -169,5 +169,8 @@
     }
   },
   "active": "d3f28ad1d8c9da9f",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "_posts/2020-09-30-Modernising-hr-operational-infrastructure.md",
+    "about.md"
+  ]
 }
